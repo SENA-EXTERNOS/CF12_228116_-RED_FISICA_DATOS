@@ -196,7 +196,12 @@
               .tarjeta.clr-paleYellow.p-4(titulo="Instalación de rosetas y jacks")
                 //h4 Instalación de rosetas y jacks
                 p Se refiere a la instalación de los puntos de red finales desde donde se conectan los equipos de comunicaciones, utilizando latiguillos (cables). La mayor parte de estas conexiones residen en canaletas o en armarios de cableado.
+
+              .tarjeta.clr-paleYellow.p-4(titulo="Tendido de los cables")
+                //h4 Instalación de rosetas y jacks
+                p En esta tarea se mide la distancia que cada cable debe recorrer y se adiciona una longitud discreta que permita trabajar con el cable, cómodamente, antes de cortarlo. Tener la seguridad de que el cable que se utiliza cuente con la certificación necesaria.
   
+
               .tarjeta.clr-paleYellow.p-4(titulo="Cross-connect")
                 //h4 Cross-connect
                 p Ensamble de los cables en los patch panels y en las rosetas, haciendo uso de las herramientas correctas y apropiadas de crimpado.

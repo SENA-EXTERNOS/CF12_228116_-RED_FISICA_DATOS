@@ -59,7 +59,7 @@
 
         .row
           .col-lg-8
-            p El ciclo de vida de la gestión de un proyecto detalla los procesos de alto nivel, imprescindibles para que la ejecución del proyecto sea exitosa.
+            p.p-3 El ciclo de vida de la gestión de un proyecto detalla los procesos de alto nivel, imprescindibles para que la ejecución del proyecto sea exitosa.
             p.bloque-texto-rosa-ciclo-vida.p-4 Uno de los efectos para que el progreso de un proyecto no sea exitoso es el despilfarro de dinero y de los recursos, lo que se puede evitar con una gestión de proyectos competente, porque más de la mitad de los proyectos no exitosos se malogran por fallas en el proceso de su planificación.
             
           .col-lg-4

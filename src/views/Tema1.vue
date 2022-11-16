@@ -80,7 +80,7 @@
         p Conozcamos algunos de los tipos de redes más comunes:
 
         TabsC.color-primario
-          .py-3.py-md-4(titulo="LAN")
+          .py-3.py-md-4(titulo="LAN").color-fondo-tarjetas-tabs-tema1.p-4
             .row
 
               .col-md-6
@@ -92,7 +92,7 @@
                 h4 LAN
                 p Son las iniciales de <em>Local Area Network</em>, que significa una red de área local; se definen de esta manera porque autorizan la conexión de dispositivos en áreas relativamente pequeñas. Las redes de la empresa son las más empleadas en el desarrollo de intercambio de datos porque, por su condición, se aplica desde las empresas más limitadas hasta las más grandes. Consienten la interconexión de múltiples nodos (unidades de almacenamiento, impresoras y otros dispositivos) aunque no se encuentren conectados físicamente con los ordenadores. La desventaja más significativa se sustenta en que los nodos que se pueden conectar son limitados.
             
-          .py-3.py-md-4(titulo="WAN")
+          .py-3.py-md-4(titulo="WAN").color-fondo-tarjetas-tabs-tema1.p-4
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
@@ -102,60 +102,64 @@
                 h4 WAN 
                 p Son las iniciales de <em>Wide Area Network,</em> que indican una red de área extensa; es decir, su campo de influencia es bastante amplio, se puede obtener la conexión de equipos y dispositivos que se localizan en diferentes ubicaciones muy apartadas geográficamente. Esto significa que la red WAN cubre distancias de entre 100 y 1.000 kilómetros, lo que posibilita ofrecer conectividad a varias ciudades o, inclusive, a un país entero. Cuando se presenta la unión de varias redes LAN conectadas entre ellas se les da el nombre de redes de área amplia. Las redes de área amplia (WAN) más nombradas son las redes de las líneas telefónicas y los satélites, las cuales pueden ser puestas en práctica por organizaciones, utilizándolas según su necesidad establecida. Internet es una red WAN pública. 
 
-          .py-3.py-md-4(titulo="MAN")
+          .py-3.py-md-4(titulo="MAN").color-fondo-tarjetas-tabs-tema1.p-4
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/img-man-tema1.png', alt='Texto que describa la imagen')
-                  figcaption Leyenda de la imagen
+                  //figcaption Leyenda de la imagen
               .col-md-6
                 h4 MAN 
                 p Son las iniciales de <em>Metropolitan Area Network,</em> que indican que la cobertura geográfica de esta red pertenece al tipo de la que se encuentra en el intermedio de las redes LAN y las WAN, de tal manera que soportan un mayor alcance que las LAN pero menor que las WAN; por esta razón, generalmente se implementan en áreas más reducidas como ciudades y poblados. La fibra óptica es el principal medio conductor que se utiliza en la transferencia de información, lo que posibilita no solo una conexión más rápida, sino también porcentajes de errores y suma de retardos temporales de una red (latencia) más bajos que otras redes y también son más estables y resistentes a las interferencias radioeléctricas.
 
 
           
-          .py-3.py-md-4(titulo="WLAN")
+          .py-3.py-md-4(titulo="WLAN").color-fondo-tarjetas-tabs-tema1.p-4
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/img-wlan-tema1.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
               .col-md-6
-                h4 WLAN
-                p Son las iniciales de <em>Wireless Local Network,</em> y significa que, en comparación con otras redes, en las de área local inalámbricas el intercambio de información se lleva  a cabo a través de ondas de radio. La inseguridad está considerada como el principal inconveniente, debido a que cualquier individuo con una terminal inalámbrica puede conectarse a otro punto de acceso privado si este no cuenta con las medidas de seguridad apropiadas.
+                .texto-wlan-tema1
+                  h4 WLAN
+                  p Son las iniciales de <em>Wireless Local Network,</em> y significa que, en comparación con otras redes, en las de área local inalámbricas el intercambio de información se lleva  a cabo a través de ondas de radio. La inseguridad está considerada como el principal inconveniente, debido a que cualquier individuo con una terminal inalámbrica puede conectarse a otro punto de acceso privado si este no cuenta con las medidas de seguridad apropiadas.
 
 
           
-          .py-3.py-md-4(titulo="WWAN")
+          .py-3.py-md-4(titulo="WWAN").color-fondo-tarjetas-tabs-tema1.p-4
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/img-wman-tema1.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
               .col-md-6
-                h4 WWAN
-                p Son las iniciales de <em>Wireless Wide Area Network,</em> que indican que la red inalámbrica de área amplia tiene una cobertura geográfica mucho más amplia que la que ofrecen las redes WMAN. En lugar de utilizar tecnologías de comunicaciones móviles como WiMAX, UMTS, GPRS, EDGE, CDMA2000, GSM, CDPD, Mobitex, HSPA y 3G, utiliza sistemas como el WiFi y el LMDS (Sistema de Distribución Local Multipunto, por sus siglas en inglés).
+                .texto-wwan-tema1
+                  h4 WWAN
+                  p Son las iniciales de <em>Wireless Wide Area Network,</em> que indican que la red inalámbrica de área amplia tiene una cobertura geográfica mucho más amplia que la que ofrecen las redes WMAN. En lugar de utilizar tecnologías de comunicaciones móviles como WiMAX, UMTS, GPRS, EDGE, CDMA2000, GSM, CDPD, Mobitex, HSPA y 3G, utiliza sistemas como el WiFi y el LMDS (Sistema de Distribución Local Multipunto, por sus siglas en inglés).
 
-          .py-3.py-md-4(titulo="SAN")
+          .py-3.py-md-4(titulo="SAN").color-fondo-tarjetas-tabs-tema1.p-4
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/img-san-tema1.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
               .col-md-6
-                h4 SAN
-                p Son las iniciales de <em>Storage Area Network,</em> que significan que la red de área de almacenamiento es un modelo de red muy empleada por las organizaciones más grandes, porque accede a conectar diversas unidades de almacenamiento a las Redes de Área Local o LAN. Este prototipo de redes se usa en los computadores centrales comisionados para procesar una gran cantidad de datos de empresas gigantes. Estas redes también se consideran redes secundarias porque su función principal es ejercer de contingencia de los servicios de almacenamiento de datos.
+                .texto-san-tema1
+                  h4 SAN
+                  p Son las iniciales de <em>Storage Area Network,</em> que significan que la red de área de almacenamiento es un modelo de red muy empleada por las organizaciones más grandes, porque accede a conectar diversas unidades de almacenamiento a las Redes de Área Local o LAN. Este prototipo de redes se usa en los computadores centrales comisionados para procesar una gran cantidad de datos de empresas gigantes. Estas redes también se consideran redes secundarias porque su función principal es ejercer de contingencia de los servicios de almacenamiento de datos.
 
 
-          .py-3.py-md-4(titulo="PAN")
+          .py-3.py-md-4(titulo="PAN").color-fondo-tarjetas-tabs-tema1.p-4
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/temas/img-pan-tema1.png', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
               .col-md-6
-                h4 PAN
-                p Son las iniciales de <em>Personal Area Network,</em> que indican que la red de área personal conecta los dispositivos contiguos al usuario en un ambiente limitado, computadores, puntos de acceso a Internet, teléfonos móviles. Este tipo de red se pone en marcha en hogares o empresas muy limitados, pero con el tiempo y debido al desarrollo de estas, se redireccionan hacia otro modelo de red más compleja y que tenga más alcance.
+                .texto-pan-tema1
+                  h4 PAN
+                  p Son las iniciales de <em>Personal Area Network,</em> que indican que la red de área personal conecta los dispositivos contiguos al usuario en un ambiente limitado, computadores, puntos de acceso a Internet, teléfonos móviles. Este tipo de red se pone en marcha en hogares o empresas muy limitados, pero con el tiempo y debido al desarrollo de estas, se redireccionan hacia otro modelo de red más compleja y que tenga más alcance.
  
     br
     br
@@ -220,7 +224,7 @@
             .h5.mb-2 Arbol
             p La topología de árbol o jerárquica es aquella donde los nodos están organizados en forma de árbol. Aquí se combinan características de la de estrella con la de bus, y se mezclan y aplican las funcionalidades de las dos. El manejo es similar, por el modo de actuar del nodo de interconexión que trabaja en modo difusión, debido a que la información se esparce hacia todas las estaciones; solo que en esta topología, las ramificaciones se difunden, a partir de un punto raíz como la de estrella a la cantidad de divisiones como sea posible según las particularidades del árbol.
 
-          .tarjeta.tarj-azul-pto-caliente-tema1.p-3(x="92%" y="90%" numero="6")
+          .tarjeta.tarj-azul2-pto-caliente-tema1.p-3(x="92%" y="90%" numero="6")
             .h5.mb-2 Hibrida
             p En este formato de conexión las redes pueden utilizar distintas topologías para conectarse. Es una de las más usuales y procede de la unión de varios tipos de topología de red. Su ejecución se debe a la complejidad de la solución de red o al aumento en la cantidad de dispositivos y, por lo tanto, se hace imprescindible implantar una topología de este tipo.
         
