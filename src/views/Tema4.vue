@@ -94,6 +94,11 @@
     br
 
     .row.container.justify-content-around.align-items-center 
+
+      P Dentro de los requerimientos de los software para realizar desarrollo de planos, debemos tener las siguientes características:
+      
+      br
+      
       .row 
         .col-lg-6
 

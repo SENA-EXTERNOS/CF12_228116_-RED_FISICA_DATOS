@@ -240,7 +240,7 @@ export default {
     {
       termino: 'Enrutador',
       significado:
-        'sistema de nombre de dominios. Un sistema de Internet que resuelve los nombres de dominios en direcciones IP.',
+        'dispositivo de red que dirige o enruta paquetes a través de las redes. Un enrutador funciona con una dirección de mensajes IP a fin de determinar la mejor ruta hacia su destino.',
     },
     {
       termino: 'Fibra óptica',

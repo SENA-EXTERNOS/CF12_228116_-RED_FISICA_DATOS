@@ -27,6 +27,12 @@
 
     .row.container.justify-content-around.align-items-center
 
+        p Además, los proyectos de tecnologías de información los podemos agrupar de tres maneras.
+        
+        br
+        
+        p Conozcamos cada una de ellas: 
+
         .bg--img_03
           .row.justify-content-center.mb-4
             .col-lg-7

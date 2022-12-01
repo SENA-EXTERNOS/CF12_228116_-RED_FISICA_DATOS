@@ -204,7 +204,7 @@
 
               .tarjeta.clr-paleYellow.p-4(titulo="Cross-connect")
                 //h4 Cross-connect
-                p Ensamble de los cables en los patch panels y en las rosetas, haciendo uso de las herramientas correctas y apropiadas de crimpado.
+                p Ensamble de los cables en los <em>patch panels</em> y en las rosetas, haciendo uso de las herramientas correctas y apropiadas de crimpado.
 
               .tarjeta.clr-paleYellow.p-4(titulo="Probado de los cables instalados")
                 //h4 Probado de los cables instalados
@@ -212,7 +212,7 @@
 
               .tarjeta.clr-paleYellow.p-4(titulo="Etiquetado y documentación del cable y conectores")
                 //h4 Cross-connect
-                p Cada uno de los cables debe ser etiquetado en ambos extremos, como también los conectores de patch panels y rosetas, de modo que queden identificados rotundamente y sin ambigüedades.
+                p Cada uno de los cables debe ser etiquetado en ambos extremos, como también los conectores de <em>patch panels</em> y rosetas, de modo que queden identificados rotundamente y sin ambigüedades.
 
               .tarjeta.clr-paleYellow.p-4(titulo="Instalación de los adaptadores de red")
                 //h4 Probado de los cables instalados
@@ -277,7 +277,7 @@
 
                 .row(titulo="Subsistema vertical o backbone")
                   .col-12
-                    p.mb-0 Este subsistema es el delegado para comunicar todos los subsistemas horizontales; por esta razón, para realizarlo, requiere de medios de transmisión de señal con un ancho de banda elevado y de alta protección. Los backbones más modernos han sido construidos con tecnología ATM, redes FDDI o Gigabit Ethernet. Este tipo de comunicaciones es perfecto para utilizarlo en instalaciones que requieran de aplicaciones multimedia.
+                    p.mb-0 Este subsistema es el delegado para comunicar todos los subsistemas horizontales; por esta razón, para realizarlo, requiere de medios de transmisión de señal con un ancho de banda elevado y de alta protección. Los <em>backbones</em> más modernos han sido construidos con tecnología ATM, redes FDDI o Gigabit Ethernet. Este tipo de comunicaciones es perfecto para utilizarlo en instalaciones que requieran de aplicaciones multimedia.
 
                 .row(titulo="Subsistema de campus")
                   .col-12
@@ -285,7 +285,7 @@
 
                 .row(titulo="Cuartos de entrada de servicios, telecomunicaciones y equipos")
                   .col-12
-                    p.mb-0 Se refiere a los lugares convenientes para acopiar las entradas de los servicios externos a la estructura (líneas telefónicas, accesos a Internet, recepción de TV por cable o satélite, etc.), la instalación de la maquinaria de comunicaciones y los equipamientos informáticos centralizados. En algunas organizaciones existen los tres tipos de espacios, en otras se presenta el cuarto de equipos que incluye el de telecomunicaciones y el de entrada de servicios que es sustituido por un armario receptor.
+                    p.mb-0 Se refiere a los lugares convenientes para acopiar las #[strong  entradas de los servicios externos] a la estructura (líneas telefónicas, accesos a Internet, recepción de TV por cable o satélite, etc.), #[strong la instalación de la maquinaria de comunicaciones] y los #[strong equipamientos informáticos centralizados.] En algunas organizaciones existen los tres tipos de espacios, en otras se presenta el #[strong  cuarto de equipos] que incluye el de telecomunicaciones y el de entrada de servicios que es sustituido por un armario receptor.
 
     br
     br
@@ -357,6 +357,7 @@
                   br
                   br
                   br
+                  
           
                 .tarjeta-slide__img.p-xl-5
 
@@ -368,7 +369,7 @@
                   br
                   br
                   br
-
+                  
 
           .col-sm-4.col-xl-3.mb-3.mb-xl-0
             .tarjeta.tarjeta-slide.arriba.color-fondo-tarjetas-animadas-tema3(@mouseover="indicadorTarjetaSlide = false")
@@ -412,7 +413,11 @@
                   //h3.color-texto-tarjetas-animadas-tema3.p-2 Dominio
  
                   h4 Sistema anglosajón de unidades 
-                  p Es el primer sistema unificado de medidas que se formó. Es un sistema de unidades fundamentado en el metro como unidad base; las unidades de mayor tamaño se denominan múltiplos, y las de menor tamaño se denominan submúltiplos. Sistema de unidades relacionadas entre sí por múltiplos o submúltiplos de 10. 
+                  p Es el sistema anglosajón tradicional de unidades; se refiere a un conjunto de unidades de medida que son distintas a las del sistema métrico decimal, que se utilizan en la actualidad, como la medida principal.
+                  br
+                  br
+                  br
+                  br
                   br
 
 

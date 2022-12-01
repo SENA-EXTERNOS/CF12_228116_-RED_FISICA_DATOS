@@ -15,7 +15,7 @@
             figure
               img(data-aos="fade-up-left")(src="@/assets/curso/temas/img-tarj1-tema1.png").img-tar1-tema1
         .col-lg-7
-            p.texto-tar1-tema1.p-3 Hablemos primero sobre el concepto de red de transmisión de datos, el cual se puede definir como una estructura o un conjunto de elementos interconectados entre sí, que comparten recursos y pueden transmitir información a través del intercambio de datos. Si analizamos y descomponemos estas palabras encontramos que hay dos palabras que vienen del latín: red, que emana del vocablo rete y que es sinónimo de malla; y datos, que es fruto de la evolución del vocablo datum que puede traducirse como dato. 
+            p.texto-tar1-tema1.p-3 Hablemos primero sobre el concepto de #[strong  red de transmisión de datos], el cual se puede definir como una estructura o un conjunto de elementos interconectados entre sí, que comparten recursos y pueden transmitir información a través del intercambio de datos. Si analizamos y descomponemos estas palabras encontramos que hay dos palabras que vienen del latín: red, que emana del vocablo rete y que es sinónimo de malla; y datos, que es fruto de la evolución del vocablo datum que puede traducirse como dato. 
 
     br
     br
@@ -33,7 +33,7 @@
             .col-xl-6
               .texto-tabs-vert-tema1.p-4
                 h4 Hardware
-                p Está integrado por ordenadores, smartphones, servidores, impresoras, dispositivos de captura de datos, escáneres, fotocopiadoras, firewalls, armarios rack, routers, switches, puntos de acceso WiFi, patch panels, cableado de red, canaletas y rosetas, entre otros.
+                p Está integrado por ordenadores, <em>smartphones</em>, servidores, impresoras, dispositivos de captura de datos, escáneres, fotocopiadoras, <em>firewalls</em>, armarios <em>rack</em>, <em>routers, switches,</em> puntos de acceso WiFi, <em>patch panels,</em> cableado de red, canaletas y rosetas, entre otros.
 
             .col-xl-6.mb-4
               figure
@@ -123,8 +123,18 @@
               .col-md-6
                 .texto-wlan-tema1
                   h4 WLAN
-                  p Son las iniciales de <em>Wireless Local Network,</em> y significa que, en comparación con otras redes, en las de área local inalámbricas el intercambio de información se lleva  a cabo a través de ondas de radio. La inseguridad está considerada como el principal inconveniente, debido a que cualquier individuo con una terminal inalámbrica puede conectarse a otro punto de acceso privado si este no cuenta con las medidas de seguridad apropiadas.
+                  p Son las iniciales de <em>Wireless Local Network,</em> y significa que, en comparación con otras redes, en las de área local inalámbricas el intercambio de información se lleva  a cabo a través de ondas de radio. #[strong La inseguridad] está considerada como el principal inconveniente, debido a que cualquier individuo con una terminal inalámbrica puede conectarse a otro punto de acceso privado si este no cuenta con las medidas de seguridad apropiadas.
 
+          .py-3.py-md-4(titulo="WMAN").color-fondo-tarjetas-tabs-tema1.p-4
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/temas/img-wman-tema1.png', alt='Texto que describa la imagen')
+                  //figcaption Leyenda de la imagen
+              .col-md-6
+                .texto-wwan-tema1
+                  h4 WMAN
+                  p Son las iniciales de <em>Wireless Metropolitan Network</em>, y significan que la red metropolitana inalámbrica es la versión inalámbrica convencional de las redes de áreas metropolitanas. Se diferencia de las MAN en que su alcance es mucho mayor. Esta tecnología se encuentra presente en modelos de comunicación como <em>Worldwide Interoperability for Microwave Access</em> WiMAX, (Interoperabilidad Mundial para Acceso con Microondas por sus siglas en inglés).
 
           
           .py-3.py-md-4(titulo="WWAN").color-fondo-tarjetas-tabs-tema1.p-4
@@ -197,6 +207,12 @@
     br
 
     .row.container.justify-content-around.align-items-center
+
+        p Es importante tener presente que existen cinco topologías básicas y en el instante en que una empresa va a elegir qué modelo de topología utilizar, la elección dependerá del tamaño y la escala de la organización, sus objetivos comerciales y su presupuesto.
+        
+        br
+        
+        p Conozcamos cada una de ellas:
 
         ImagenInfografica.color-primario
           template(v-slot:imagen)

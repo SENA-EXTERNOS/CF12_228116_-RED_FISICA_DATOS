@@ -1,12 +1,11 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
-  //(icono="fas fa-sitemap" titulo="Síntesis")
+  BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .titulo-sexto.color-titulo-sexto
         h4.texto-titulo-sintesis Implementación de infraestructura de tecnologías de información y las comunicaciones.
-        p.texto-titulo-sintesis Síntesis: Red física de datos.
+        //p.texto-titulo-sintesis Síntesis: Red física de datos.
 
     br
 
