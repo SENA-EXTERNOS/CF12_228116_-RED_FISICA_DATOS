@@ -357,6 +357,8 @@
                   br
                   br
                   br
+                  br
+                  
                   
           
                 .tarjeta-slide__img.p-xl-5
@@ -379,6 +381,7 @@
                 
                   figure
                     img(data-aos="fade-down")(src="@/assets/curso/temas/img2-tar-conect-tema2.png", alt="alt").imagenes-tarjetas-animadas-tema3
+                  br
                   br
                   br
                   br
@@ -407,6 +410,7 @@
                   br
                   br
                   br
+                  br
                   
 
                 .tarjeta-slide__img.p-xl-5
@@ -429,6 +433,7 @@
                 
                   figure
                     img(data-aos="fade-down")(src="@/assets/curso/temas/img4-tar-conect-tema2.png", alt="alt").imagenes-tarjetas-animadas-tema3
+                  br
                   br
                   br
                   br
