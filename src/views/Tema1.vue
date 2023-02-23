@@ -48,7 +48,7 @@
             .col-xl-6
               .texto-tabs-vert-tema1.p-4
                 h4 <em>Software</em>
-                p En los elementos que conforman el <em>software</em>, podemos incluir el <em>software</em> del sistema operativo de los servidores, el <em>software</em> de administración de las impresoras, el <em>software</em> de administración de los escáneres, el <em>software</em> de administración de los routers, el <em>software</em> de administración de los firewall, entre otros.
+                p En los elementos que conforman el <em>software</em>, podemos incluir el <em>software</em> del sistema operativo de los servidores, el <em>software</em> de administración de las impresoras, el <em>software</em> de administración de los escáneres, el <em>software</em> de administración de los <i>routers</i>, el <em>software</em> de administración de los <i>firewall</i>, entre otros.
 
             .col-xl-6.mb-4
               figure
@@ -76,8 +76,7 @@
 
     .row.container.justify-content-around.align-items-center
 
-        p Dentro del contexto de redes de transmisión de datos los tipos están claramente definidos según su alcance y tamaño de la red.
-        p Conozcamos algunos de los tipos de redes más comunes:
+        p Los tipos de redes de transmisión de datos están definidos según su alcance y tamaño de la red, conozcamos algunos de los tipos más comunes: 
 
         TabsC.color-primario
           .py-3.py-md-4(titulo="LAN").color-fondo-tarjetas-tabs-tema1.p-4
@@ -177,9 +176,7 @@
 
     .row.container.justify-content-around.align-items-center
 
-        #topologias
-        .titulo-segundo.color-acento-contenido
-            h2 1.1  Topologías
+        h2 Topologías
 
         p Con base en lo anterior, nos adentramos en un nuevo tema: la topología de red, que se define como la estructura del total de equipos, infraestructura y demás componentes de una red.
         p Y está definida mediante dos enfoques:

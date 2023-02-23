@@ -13,7 +13,7 @@
       .row 
         .col-lg-12.bloque-texto-tar1-tema3.p-4
           p Un proyecto de gestión de tecnologías de información es un proceso o un conjunto etapas que se debe establecer para lograr el cumplimiento de un objetivo o unos requerimientos preestablecidos.
-          p Para conocer cada una de esas etapas, le invitamos a ver el siguiente video.
+          p Para conocer cada una de esas etapas, le invitamos a ver el siguiente video:
 
     .row.tarjeta.tarjeta--blanca.p-2.p-md-3
 
@@ -27,7 +27,7 @@
 
     .row.container.justify-content-around.align-items-center
 
-        p Además, los proyectos de tecnologías de información los podemos agrupar de tres maneras.
+        p Los proyectos de tecnologías de la información se pueden agrupar de tres maneras, tal como se muestra a continuación: 
         
         br
         
@@ -59,14 +59,12 @@
 
     .row.container.justify-content-around.align-items-center
 
-        #ciclo-de-vida-de-un-proyecto
-        .titulo-segundo.color-acento-contenido
-          h2 3.1  Ciclo de vida de un proyecto
+        h2 Ciclo de vida de un proyecto
 
         .row
           .col-lg-8
-            p.p-3 El ciclo de vida de la gestión de un proyecto detalla los procesos de alto nivel, imprescindibles para que la ejecución del proyecto sea exitosa.
-            p.bloque-texto-rosa-ciclo-vida.p-4 Uno de los efectos para que el progreso de un proyecto no sea exitoso es el despilfarro de dinero y de los recursos, lo que se puede evitar con una gestión de proyectos competente, porque más de la mitad de los proyectos no exitosos se malogran por fallas en el proceso de su planificación.
+            p.p-3 El ciclo de vida de la gestión de un proyecto detalla los procesos de alto nivel que son imprescindibles para que la ejecución del proyecto sea exitosa.
+            p.bloque-texto-rosa-ciclo-vida.p-4 Uno de los efectos para que el progreso de un proyecto no sea exitoso es el despilfarro de dinero y de recursos, esto se puede evitar con una gestión de proyectos competente, lamentablemente más de la mitad de los proyectos no exitosos se malogran por fallas en el proceso de planificación.
             
           .col-lg-4
               figure
@@ -80,7 +78,7 @@
     .row.container.justify-content-around.align-items-center
 
 
-        p El ciclo de vida de la gestión de un proyecto acostumbra distinguirse en cuatro fases, las cuales conforman el recorrido del proyecto desde un inicio hasta un fin: 
+        p El ciclo de vida de la gestión de un proyecto acostumbra a distinguirse en cuatro fases, las cuales conforman el recorrido del proyecto desde un inicio hasta un fin: 
 
         .row 
           .col-lg-12
@@ -93,20 +91,22 @@
 
               .tarjeta.tarj-rosa-pto-caliente-tema3.p-3(x="1%" y="10%" numero="1")
                 .h5.mb-2 Iniciación
-                p La primera fase es la de identificar necesidades o exigencias solicitadas, una dificultad o una oportunidad y luego proponer, voluntariamente, ideas sobre las formas en las que se puede cubrir esta necesidad, darle solución a esta situación o aprovechar la oportunidad. En esta etapa se define el objetivo para el proyecto y además, se establece si el proyecto es factible y se indican el alcance y los entregables.
+                p La primera fase es la de identificar necesidades o exigencias solicitadas, una dificultad o una oportunidad y luego proponer, voluntariamente ideas sobre las formas en las que se puede cubrir esta necesidad, darle solución a esta situación o aprovechar la oportunidad. En esta etapa se define el objetivo para el proyecto , se establece si el proyecto es factible, se indican el alcance y los entregables.
 
               .tarjeta.tarj-azul-pto-caliente-tema3.p-3(x="27%" y="10%" numero="2")
                 .h5.mb-2 Planificación
-                p Una vez que el proyecto ha sido aprobado, la notificación de trabajo o documento para la iniciación del proyecto, se inicia el avance hacia la fase de planificación.
-                p En esta fase se separa en tareas más pequeñas el proyecto general, se organizan los respectivos equipos y el cronograma para obtener el cumplimiento de las tareas. Se definen los objetivos más limitados dentro del proyecto general y se valida que sean alcanzables. 
+                p Una vez que el proyecto ha sido aprobado, la realiza la notificación de trabajo o documento para la iniciación del proyecto, por tanto, se inicia el avance hacia la fase de planificación.
+                P Esta fase se separa en tareas más pequeñas el proyecto general, se organizan los respectivos equipos y el cronograma para obtener el cumplimiento de las actividades. Se definen los objetivos más limitados dentro del proyecto general y se valida que sean alcanzables. 
+
 
               .tarjeta.tarj-rosa-pto-caliente-tema3.p-3(x="53%" y="10%" numero="3")
                 .h5.mb-2 Ejecución
-                p El plan se convierte en acción cuando se llega a la etapa de ejecución. En esta fase, la labor del gerente del proyecto es la de conservar el proceso bajo control, organizar a los integrantes del equipo, utilizar los cronogramas y asegurar que el trabajo se realice según el plan original.
+                p El plan se convierte en acción cuando se llega a la etapa de ejecución. En esta fase, la labor del gerente del proyecto es la de conservar el proceso bajo control, organizar a los integrantes del equipo, aplicar los cronogramas y asegurar que el trabajo se realice según el plan original.
 
               .tarjeta.tarj-azul-pto-caliente-tema3.p-3(x="79%" y="10%" numero="4")
                 .h5.mb-2 Cierre
-                p En esta fase se proporcionan los entregables finales, se libran los recursos del proyecto y se establece el éxito del proyecto. Terminar las principales tareas de un proyecto no es lo mismo que el trabajo del gerente del proyecto se haya acabado. Todavía quedan actividades sustanciales por realizar como: evaluar qué fue lo que funcionó y qué fue lo que no funcionó en el proyecto.
+                p En esta fase se proporcionan los entregables finales, se liberan los recursos del proyecto y se establece el éxito del proyecto. Todavía quedan actividades sustanciales por realizar cómo: evaluar qué fue lo que funcionó y qué fue lo que no funcionó en el proyecto.
+
           p.texto-invisible Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore laudantium, cupiditate enim adipisci a molestias maxime vero facilis sit? Eum incidunt maiores odit perferendis magni earum cumque, molestias ut ab!
           p.texto-invisible Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore laudantium, cupiditate enim adipisci a molestias maxime vero facilis sit? Eum incidunt maiores odit perferendis magni earum cumque, molestias ut ab!
           p.texto-invisible Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore laudantium, cupiditate enim adipisci a molestias maxime vero facilis sit? Eum incidunt maiores odit perferendis magni earum cumque, molestias ut ab!
@@ -121,8 +121,8 @@
         .col-lg-7
           p.bloque-txt-color-import-objt-proy.p-3 Es de gran importancia tener en cuenta que los objetivos del proyecto son la estructura fundamental sobre la cual se lleva a cabo la valoración final.
            br
-           | Se define o establece un objetivo general que debe cumplir al cien por ciento con lo solicitado o los requerimientos establecidos dentro del proceso de aprobación del mismo.
-          p.p-3 Después de definido el objetivo macro o general se desagrega en objetivos más pequeños para así poder establecer las tareas, los tiempos, los cronogramas y las personas encargadas de cada una de estas.
+           | Se define o establece un objetivo general que debe cumplir al 100% con lo solicitado y/o los requerimientos establecidos dentro del proceso de aprobación inicial.
+          p.p-3 Después de definido el objetivo macro o general se desagrega en objetivos más pequeños para así poder establecer las tareas, los tiempos, los cronogramas y las personas encargadas de cada uno de estos.
            br
            | La sumatoria de estos pequeños objetivos, es decir, su ejecución, deben establecer el logro del objetivo general. 
 

@@ -16,8 +16,9 @@
 
         .col-lg-6.color-tar1-tema4
           .texto-tar1-tema4.p-2
-            p Y finalizamos estudiando sobre los planos, diagramas y el <em>software</em> utilizado para tal fin.
-            p Hablemos primero sobre el dibujo técnico: cuando hay que representar un objeto grande en un plano, por ejemplo un camión, no es práctico dibujarlo con su tamaño real. En estos casos lo conveniente es dibujar el objeto a tamaño reducido. Si los objetos son demasiado pequeños, por ejemplo un componente electrónico, es conveniente realizar el dibujo con un tamaño ampliado.
+            p Para finalizar, abordemos el estudio de planos, diagramas y el software utilizado para tal fin.
+
+            p Hablemos primero sobre el dibujo técnico: cuando hay que representar un objeto grande en un plano, por ejemplo, un camión, no es práctico dibujarlo con su tamaño real. En estos casos lo conveniente es dibujar el objeto a tamaño reducido. Si los objetos son demasiado pequeños, por ejemplo; un componente electrónico, es conveniente realizar el dibujo con un tamaño ampliado.
               br
               br
               | Por consiguiente, debemos hablar de la escala, la cual es la relación de ampliación o de reducción con la que se dibuja un objeto en papel.
@@ -95,7 +96,7 @@
 
     .row.container.justify-content-around.align-items-center 
 
-      P Dentro de los requerimientos de los software para realizar desarrollo de planos, debemos tener las siguientes características:
+      P Dentro de los requerimientos de los <i>software</i> para realizar desarrollo de planos, debemos tener las siguientes características:
       
       br
       
@@ -146,7 +147,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 10
-              | Catálogo de proyectos domésticos con opciones  olaborativas.
+              | Catálogo de proyectos domésticos con opciones colaborativas.
 
         p Por todos es conocido que el trazado de planos por ordenador facilita el trabajo, por eso es importante elegir el programa informático con el que se puedan cumplir los objetivos del diseño.
     

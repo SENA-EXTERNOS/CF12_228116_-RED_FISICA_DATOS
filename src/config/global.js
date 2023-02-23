@@ -55,14 +55,6 @@ export default {
         numero: '1',
         titulo: 'Redes',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Topologías',
-            hash: 'topologias',
-          },
-        ],
       },
 
       {
@@ -71,38 +63,6 @@ export default {
         numero: '2',
         titulo: 'Medios de transmisión ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'La instalación eléctrica y de aire acondicionado',
-            hash: 'la-instalacion-electrica-y-de-aire-acondicionado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Instalación del cableado de red',
-            hash: 'instalacion-del-cableado-de-red',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Estructuración del cableado',
-            hash: 'estructuracion-del-cableado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Instalación del centro de procesamiento de datos',
-            hash: 'instalacion-del-centro-de-procesamiento-de-datos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Sistema de unidades de medidas',
-            hash: 'sistema-de-unidades-de-medidas',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -110,14 +70,6 @@ export default {
         numero: '3',
         titulo: 'Gestión de proyectos de TI',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Ciclo de vida de un proyecto',
-            hash: 'ciclo-de-vida-de-un-proyecto',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
