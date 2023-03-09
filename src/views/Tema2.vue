@@ -151,7 +151,7 @@
             p Se refiere a la instalación de los puntos de red finales desde donde se conectan los equipos de comunicaciones, utilizando latiguillos (cables). La mayor parte de estas conexiones residen en canaletas o en armarios de cableado.
 
           .row(titulo="Tendido de los cables")
-            p En esta tarea se mide la distancia que cada cable debe recorrer y se adiciona una longitud discreta que permita trabajar con el cable, cómodamente, antes de cortarlo. Tener la seguridad de que el cable que se utiliza cuente con la certificación necesaria.
+            p En esta tarea se mide la distancia que cada cable debe recorrer y se adiciona una longitud discreta que permita trabajar con el cable cómodamente antes de cortarlo. Tener la seguridad de que el cable que se utiliza cuente con la certificación necesaria.
 
 
           .row(titulo="<em>Cross-connect</em>")
