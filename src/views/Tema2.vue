@@ -138,51 +138,43 @@
     h2 Instalación del cableado de red
     
     p Una instalación del cableado de red, según las directrices del proyecto, se apoya en la ejecución ordenada de la instalación de un conjunto de tareas que restablecen en facilitar el servicio que necesita el cliente que solicitó la instalación.
-    p Algunas de estas tareas se pueden aplicar en el tiempo y esto se debe tener en cuenta cuando se estructure el calendario para la instalación. A continuación, describimos algunas de estas tareas:
+    p.mb-5 Algunas de estas tareas se pueden aplicar en el tiempo y esto se debe tener en cuenta cuando se estructure el calendario para la instalación. A continuación, describimos algunas de estas tareas:
 
-    .row.justify-content-center.mb-5
-      .col-lg-9
-        TabsA.color-acento-botones  
-          
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Instalación de<br> las tomas de<br> corriente")
+
+    .row.container.justify-content-around.align-items-center.mb-5
+      .col-lg-8.order-2.order-lg-1.mb-5
+        AcordionA(tipo="a" clase-tarjeta="tarjeta fondo-tarjetas-acordeon")
+          .row(titulo="Instalación de las tomas de corriente")
             p Esta tarea acostumbra ser llevada a cabo por un electricista, pero desde el punto de vista del proyecto, se debe tener seguridad de que existen suficientes tomacorrientes para alimentar todos los equipos de comunicaciones.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Instalación de<br> rosetas y jacks")
-            //h4 Instalación de rosetas y jacks
+          .row(titulo="Instalación de rosetas y jacks")
             p Se refiere a la instalación de los puntos de red finales desde donde se conectan los equipos de comunicaciones, utilizando latiguillos (cables). La mayor parte de estas conexiones residen en canaletas o en armarios de cableado.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Tendido de<br> los cables")
-            //h4 Instalación de rosetas y jacks
+          .row(titulo="Tendido de los cables")
             p En esta tarea se mide la distancia que cada cable debe recorrer y se adiciona una longitud discreta que permita trabajar con el cable, cómodamente, antes de cortarlo. Tener la seguridad de que el cable que se utiliza cuente con la certificación necesaria.
 
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Cross-connect")
-            //h4 Cross-connect
+          .row(titulo="<em>Cross-connect</em>")
             p Ensamble de los cables en los <em>patch panels</em> y en las rosetas, haciendo uso de las herramientas correctas y apropiadas de crimpado.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Probado de <br>los cables<br> instalados")
-            //h4 Probado de los cables instalados
+          .row(titulo="Probado de los cables instalados")
             p Cada uno de los cables que se construyó y se conectorizó debe ser probado de forma inmediata para asegurar que cumplirá su función de forma correcta.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Etiquetado y <br>documentación del cable y conectores")
-            //h4 Cross-connect
+          .row(titulo="Etiquetado y documentación del cable y conectores")
             p Cada uno de los cables debe ser etiquetado en ambos extremos, como también los conectores de <em>patch panels</em> y rosetas, de modo que queden identificados rotundamente y sin ambigüedades.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Instalación de <br>los adaptadores <br>de red")
-            //h4 Probado de los cables instalados
+          .row(titulo="Instalación de los adaptadores de red")
             p Una considerable cantidad de los equipos informáticos ya vienen con la tarjeta de red instalada pero, necesariamente, esto no tiene que ser de esta manera.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Instalación de los <br>dispositivos de red")
-            //h4 Probado de los cables instalados
+          .row(titulo="Instalación de los dispositivos de red")
             p Se refiere a la instalación de los concentradores, conmutadores, puentes y encaminadores. Algunos de estos dispositivos deben ser configurados y caracterizados antes de proporcionar sus servicios.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Configuración")
-            //h4 Probado de los cables instalados
+          .row(titulo="Configuración")
             p Configuración del <em>software</em> de red en clientes y servidores de la red.
           
 
-            
-      .col-lg-3.order-1.order-lg-2(data-aos="fade-down-left")
+              
+      .col-lg-4.order-1.order-lg-2.mb-5
         figure
           img(src="@/assets/curso/temas/img-inst-cableado-azul-tema2.png")
 
@@ -275,116 +267,46 @@
     br
     br
 
-    .row.container.justify-content-around.align-items-center
 
-        p Existen varios sistemas de medidas, entre los cuales encontramos los siguientes:
-
-        
-        .row
-          .col-sm-4.col-xl-3.mb-3.mb-xl-0
-            .tarjeta.tarjeta-slide.arriba.color-fondo-tarjetas-animadas-tema3(@mouseover="indicadorTarjetaSlide = false")
-              .indicador--hover(v-if="indicadorTarjetaSlide")
-              .tarjeta-slide__contenedor
-                .tarjeta-slide__contenido
-                
-
-                  figure
-                    img(data-aos="fade-down")(src="@/assets/curso/temas/img1-tar-conect-tema2.png", alt="alt").imagenes-tarjetas-animadas-tema3
-                  br
-                  br
-                  br
-                  br
-                  br
-                  br
-                  
-                  
-          
-                .tarjeta-slide__img.p-xl-5
-
-                  h4 Sistema Internacional de Unidades (SI) 
-                  p Es la versión actualizada del sistema métrico y el que más se utiliza en la actualidad. Sus unidades básicas son: el metro, el kilogramo, el segundo, el amperio, el kelvin, la candela y el mol.
-                  br
-                  br
-                  br
-                  br
-                  br
-                  br
-                  
-
-          .col-sm-4.col-xl-3.mb-3.mb-xl-0
-            .tarjeta.tarjeta-slide.arriba.color-fondo-tarjetas-animadas-tema3(@mouseover="indicadorTarjetaSlide = false")
-              .indicador--hover(v-if="indicadorTarjetaSlide")
-              .tarjeta-slide__contenedor
-                .tarjeta-slide__contenido
-                
-                  figure
-                    img(data-aos="fade-down")(src="@/assets/curso/temas/img2-tar-conect-tema2.png", alt="alt").imagenes-tarjetas-animadas-tema3
-                  br
-                  br
-                  br
-                  br
-                  br
-                  br
-
-                .tarjeta-slide__img.p-xl-5
-                  //h3.color-texto-tarjetas-animadas-tema3.p-2 Dominio
-
-                  h4 Sistema métrico decimal
-                  p Es el primer sistema unificado de medidas que se formó. Es un sistema de unidades fundamentado en el metro como unidad base; las unidades de mayor tamaño se denominan múltiplos, y las de menor tamaño se denominan submúltiplos. Sistema de unidades relacionadas entre sí por múltiplos o submúltiplos de 10. 
-                  br
-                  br
-                  
-
-          .col-sm-4.col-xl-3.mb-3.mb-xl-0
-            .tarjeta.tarjeta-slide.arriba.color-fondo-tarjetas-animadas-tema3(@mouseover="indicadorTarjetaSlide = false")
-              .indicador--hover(v-if="indicadorTarjetaSlide")
-              .tarjeta-slide__contenedor
-                .tarjeta-slide__contenido
-                
-                  figure
-                    img(data-aos="fade-down")(src="@/assets/curso/temas/img3-tar-conect-tema2.png", alt="alt").imagenes-tarjetas-animadas-tema3
-                  br
-                  br
-                  br
-                  br
-                  br
-                  br
-                  
-
-                .tarjeta-slide__img.p-xl-5
-                  //h3.color-texto-tarjetas-animadas-tema3.p-2 Dominio
- 
-                  h4 Sistema anglosajón de unidades 
-                  p Es el sistema anglosajón tradicional de unidades; se refiere a un conjunto de unidades de medida que son distintas a las del sistema métrico decimal, que se utilizan en la actualidad, como la medida principal.
-                  br
-                  br
-                  br
-                  br
-                  br
+    p.mb-5 Existen varios sistemas de medidas, entre los cuales encontramos los siguientes:
 
 
-          .col-sm-4.col-xl-3.mb-3.mb-xl-0
-            .tarjeta.tarjeta-slide.arriba.color-fondo-tarjetas-animadas-tema3(@mouseover="indicadorTarjetaSlide = false")
-              .indicador--hover(v-if="indicadorTarjetaSlide")
-              .tarjeta-slide__contenedor
-                .tarjeta-slide__contenido
-                
-                  figure
-                    img(data-aos="fade-down")(src="@/assets/curso/temas/img4-tar-conect-tema2.png", alt="alt").imagenes-tarjetas-animadas-tema3
-                  br
-                  br
-                  br
-                  br
-                  br
-                  br
 
-                .tarjeta-slide__img.p-xl-5
-                  //h3.color-texto-tarjetas-animadas-tema3.p-2 Dominio
-                  
-                  h4 Sistema MKS de unidades
-                  p Se refiere a un sistema de unidades que recibe su nombre de las unidades que acoge como básicas y que utiliza como unidades fundamentales: el metro, el kilogramo y el segundo, como unidades de longitud, masa y tiempo respectivamente. El sistema MKS de unidades sentó las bases para el Sistema Internacional de Unidades SI, que en la actualidad se utiliza como estándar internacional.
+    .row.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.fnd-2.flip-im(:style="{'background-image': `url(${require('@/assets/curso/temas/img-1.png')})`}")
+            .tarjeta-flip__contenido.fnd-1.p-4
+              h4 Sistema Internacional de Unidades (SI) 
+              p Es la versión actualizada del sistema métrico y el que más se utiliza en la actualidad. Sus unidades básicas son: el metro, el kilogramo, el segundo, el amperio, el kelvin, la candela y el mol.
 
-                  
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.flip-im.fnd-2(:style="{'background-image': `url(${require('@/assets/curso/temas/img-2.png')})`}")
+            .tarjeta-flip__contenido.p-4.fnd-1
+              h4 Sistema métrico decimal
+              p Es el primer sistema unificado de medidas que se formó. Es un sistema de unidades fundamentado en el metro como unidad base; las unidades de mayor tamaño se denominan múltiplos, y las de menor tamaño se denominan submúltiplos. Sistema de unidades relacionadas entre sí por múltiplos o submúltiplos de 10. 
+
+      .col-sm-6.col-xl-3.mb-4.mb-sm-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.flip-im.fnd-2(:style="{'background-image': `url(${require('@/assets/curso/temas/img-3.png')})`}")
+            .tarjeta-flip__contenido.p-4.fnd-1
+              h4 Sistema anglosajón de unidades 
+              p Es el sistema anglosajón tradicional de unidades; se refiere a un conjunto de unidades de medida que son distintas a las del sistema métrico decimal, que se utilizan en la actualidad, como la medida principal.
+
+      .col-sm-6.col-xl-3
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img.flip-im.fnd-2(:style="{'background-image': `url(${require('@/assets/curso/temas/img-4.png')})`}")
+            .tarjeta-flip__contenido.p-4.fnd-1
+              h4 Sistema MKS de unidades
+              p Se refiere a un sistema de unidades que recibe su nombre de las unidades que acoge como básicas y que utiliza como unidades fundamentales: el metro, el kilogramo y el segundo, como unidades de longitud, masa y tiempo respectivamente. El sistema MKS de unidades sentó las bases para el Sistema Internacional de Unidades SI, que en la actualidad se utiliza como estándar internacional.
+
+
 
 
 

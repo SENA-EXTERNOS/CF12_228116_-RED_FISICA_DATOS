@@ -27,12 +27,12 @@
       p Este conjunto de elementos está compuesto por diferentes componentes:
     
       TabsA.bloque-tabs-tema1
-        .tarjeta.p-4(titulo="Hardware")
+        .tarjeta.p-4(titulo="<i>Hardware</i>")
  
           .row
             .col-xl-6
               .texto-tabs-vert-tema1.p-4
-                h4 Hardware
+
                 p Está integrado por ordenadores, <em>smartphones</em>, servidores, impresoras, dispositivos de captura de datos, escáneres, fotocopiadoras, <em>firewalls</em>, armarios <em>rack</em>, <em>routers, switches,</em> puntos de acceso WiFi, <em>patch panels,</em> cableado de red, canaletas y rosetas, entre otros.
 
             .col-xl-6.mb-4
@@ -41,13 +41,12 @@
                 //figcaption Leyenda de la imagen
     
 
-        .tarjeta.p-4(titulo="Software")
+        .tarjeta.p-4(titulo="<i>Software</i>")
 
           .row
 
             .col-xl-6
               .texto-tabs-vert-tema1.p-4
-                h4 <em>Software</em>
                 p En los elementos que conforman el <em>software</em>, podemos incluir el <em>software</em> del sistema operativo de los servidores, el <em>software</em> de administración de las impresoras, el <em>software</em> de administración de los escáneres, el <em>software</em> de administración de los <i>routers</i>, el <em>software</em> de administración de los <i>firewall</i>, entre otros.
 
             .col-xl-6.mb-4
@@ -178,8 +177,8 @@
 
         h2 Topologías
 
-        p Con base en lo anterior, nos adentramos en un nuevo tema: la topología de red, que se define como la estructura del total de equipos, infraestructura y demás componentes de una red.
-        p Y está definida mediante dos enfoques:
+        p Con base en lo anterior, nos adentramos en un nuevo tema: la topología de red, que se define como la estructura del total de equipos, infraestructura y demás componentes de una red y está definida en dos enfoques, tal como se muestra a continuación:
+
 
         .row.bloque-tar-topologias-tema1
         

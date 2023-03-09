@@ -7,26 +7,28 @@
         span 4
       h1 <em>Software</em> de planos y diagramas
 
-    
-    .row.container.justify-content-around.align-items-center
-      .row
-        .col-lg-6
-            figure
-                img(data-aos="zoom-in")(src="@/assets/curso/temas/img1-tema4.png", alt="alt")
 
-        .col-lg-6.color-tar1-tema4
-          .texto-tar1-tema4.p-2
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/img1-tema4.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
             p Para finalizar, abordemos el estudio de planos, diagramas y el software utilizado para tal fin.
+            br
+            br
 
             p Hablemos primero sobre el dibujo técnico: cuando hay que representar un objeto grande en un plano, por ejemplo, un camión, no es práctico dibujarlo con su tamaño real. En estos casos lo conveniente es dibujar el objeto a tamaño reducido. Si los objetos son demasiado pequeños, por ejemplo; un componente electrónico, es conveniente realizar el dibujo con un tamaño ampliado.
               br
               br
               | Por consiguiente, debemos hablar de la escala, la cual es la relación de ampliación o de reducción con la que se dibuja un objeto en papel.
-    br
-    br
-    br
 
-    .row.container.justify-content-around.align-items-center
+    
+
+
+    .row.container.justify-content-around.align-items-center.mb-5
 
         p Existen diferentes tipos de escala:
 
@@ -39,7 +41,7 @@
                     //figcaption Leyenda de la imagen
               .col-md-6.mb-4.mb-md-0
                 .texto-tabs-tema4
-                  h4 Escala natural
+
                   p Se utiliza para representar los objetos con un dibujo del mismo tamaño que la realidad. La escala natural se representa también como escala 1:1.
             
               
@@ -51,7 +53,7 @@
                   //figcaption Leyenda de la imagen
               .col-md-6
                 .texto-tabs-tema4
-                  h4 Escala de reducción
+
                   p Se utiliza cuando el tamaño del objeto es mayor que el tamaño de la hoja de papel. Una escala 1:10 significa que el dibujo tendrá un tamaño diez veces menor que el objeto real. 
 
           .py-3.py-md-4(titulo="Escala de ampliación")
@@ -62,11 +64,10 @@
                     //figcaption Leyenda de la imagen
               .col-md-6.mb-4.mb-md-0
                 .texto-tabs-tema4
-                  h4 Escala de ampliación
+
                   p Se utiliza para representar objetos pequeños. Una escala de ampliación 10:1 servirá para representar un engranaje de reloj de 5 milímetros, con un tamaño de 50 milímetros en el papel.
     br           
-    br           
-    br
+
 
     .row.container.justify-content-around.align-items-center 
       .row 
@@ -80,8 +81,7 @@
                 img(src='@/assets/curso/temas/img-tar2-tema4.png', alt='Texto que describa la imagen')
 
     br
-    br
-    br
+
 
     .row.container.justify-content-around.align-items-center 
       .row 
@@ -154,62 +154,49 @@
     br
     br
     br
+    .row.justify-content-center.align-items-center
+      .col-lg-4.p-4.px-5
+        .row.justify-content-center.align-items-center.mb-5.brd-r
+          .col-6
+            figure
+              img.img-116(src='@/assets/curso/temas/img-autocad-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
+          .col-6
+            h4.text-center AutoCAD
 
-    .row.container.justify-content-around.align-items-center 
 
-      .row 
-        .col-lg-4
-          .row
-            .linea1-superior-tema4
-            .col-lg-10
-              figure
-                  img(src='@/assets/curso/temas/img-autocad-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
-            .col-lg-2
-              h4.textos-softw-diseno-tema4 AutoCAD
+      .col-lg-4.p-4.px-5
+        .row.justify-content-center.align-items-center.mb-5.brd-r
+          .col-6
+            figure
+              img.img-116(src='@/assets/curso/temas/img-archicad-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
+          .col-6
+            h4.text-center ArchiCAD
 
-        .col-lg-4
-          .row  
-            .linea2-superior-tema4
-            .col-lg-10
-              figure
-                  img(src='@/assets/curso/temas/img-archicad-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
-            
-            .col-lg-2
-              h4.textos-softw-diseno-tema4 ArchiCAD
-
-        .col-lg-4
-          .row
-            .linea3-superior-tema4
-            .col-lg-10
-              figure
-                  img(src='@/assets/curso/temas/img-microstation-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
+      .col-lg-4.p-4.px-5
+        .row.justify-content-center.align-items-center.mb-5.brd-r
+          .col-6
+            figure
+              img.img-116(src='@/assets/curso/temas/img-microstation-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
               
-            .col-lg-2
-              h4.textos-softw-diseno-tema4 MicroStation
-      .row.fila2-img-softw-diseno-tema4 
-        .col-lg-4
-          .row
-            .linea4-superior-tema4
-            .col-lg-10
-              figure
-                  img(src='@/assets/curso/temas/img-allplan-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
-            .col-lg-2
-              h4.textos-softw-diseno-tema4 Allplan
+          .col-6
+            h4.text-center MicroStation
+      .col-lg-4.p-4.px-5
+        .row.justify-content-center.align-items-center.mb-5.brd-r
+          .col-6
+            figure
+              img.img-116(src='@/assets/curso/temas/img-allplan-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
+          .col-6
+            h4.text-center Allplan
 
-        .col-lg-4
-          .row
-            .linea5-superior-tema4
-            .col-lg-10
-              figure
-                  img(src='@/assets/curso/temas/img-corelcad-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
+      .col-lg-4.p-4.px-5
+        .row.justify-content-center.align-items-center.mb-5.brd-r
+          .col-6
+            figure
+              img.img-116(src='@/assets/curso/temas/img-corelcad-tema4.png', alt='Texto que describa la imagen').img-softw-diseno-tema4
+          .col-6
+            h4.text-center CorelCAD
 
-            .col-lg-2
-              h4.textos-softw-diseno-tema4 CorelCAD
 
-    br
-    br
-    br
-    br
 
     .row.container.justify-content-around.align-items-center 
         .row 

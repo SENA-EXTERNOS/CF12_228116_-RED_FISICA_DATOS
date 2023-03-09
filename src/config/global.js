@@ -75,7 +75,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Software de planos y diagramas',
+        titulo: '<i>Software</i> de planos y diagramas',
         desarrolloContenidos: true,
       },
     ],

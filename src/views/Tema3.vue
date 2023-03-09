@@ -37,11 +37,11 @@
           .row.justify-content-center.mb-4
             .col-lg-7
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo-tarjetas-acordeon")
-                .row(titulo="Proyectos de hardware")
+                .row(titulo="Proyectos de <i>hardware</i>")
                   .col-12
                     p.mb-0 Este tipo de procesos se dan al interior de las organizaciones por el tiempo de obsolescencia de los equipos o dispositivos utilizados, es decir, en el caso de los computadores, estos tienen definido un tiempo de vida según los criterios de actualización tecnológica establecidos por las empresas. Hay compañías en las cuales el tiempo de vida útil de un computador es de dos años, hay otras con tres años y otras con hasta cinco años. Este lapso de tiempo es el que me valida el desarrollo y la implementación de los proyectos de cambios de equipos, en el caso de los computadores.
 
-                .row(titulo="Proyectos de software")
+                .row(titulo="Proyectos de <i>software</i>")
                   .col-12
                     p.mb-0 Este tipo de planes se dan como producto del plan estratégico de sistemas de información de las organizaciones, en el cual se deben establecer los procesos de desarrollo o adquisidores de sistemas de información, en el caso de nuevos requerimientos de <em>software</em>. Cuando hay la necesidad de realizar una actualización a los sistemas, también se dan inicio a estos proyectos como consecuencia de modificaciones a los <em>software</em> existentes.
 
@@ -57,7 +57,7 @@
     br
     br
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mb-5
 
         h2 Ciclo de vida de un proyecto
 
@@ -70,12 +70,9 @@
               figure
                   img(data-aos="fade-left")(src="@/assets/curso/temas/img-ciclo-vid-proyecto.png", alt="alt")
     
-    br
-    br
-    br
 
 
-    .row.container.justify-content-around.align-items-center
+    .row.container.justify-content-around.align-items-center.mb-5
 
 
         p El ciclo de vida de la gestión de un proyecto acostumbra a distinguirse en cuatro fases, las cuales conforman el recorrido del proyecto desde un inicio hasta un fin: 
@@ -86,7 +83,7 @@
             ImagenInfografica.color-primario
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/temas/img-pto-caliente-tema3.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/img-5.svg', alt='Texto que describa la imagen')
                   //figcaption Leyenda de la imagen
 
               .tarjeta.tarj-rosa-pto-caliente-tema3.p-3(x="1%" y="10%" numero="1")
@@ -107,13 +104,7 @@
                 .h5.mb-2 Cierre
                 p En esta fase se proporcionan los entregables finales, se liberan los recursos del proyecto y se establece el éxito del proyecto. Todavía quedan actividades sustanciales por realizar cómo: evaluar qué fue lo que funcionó y qué fue lo que no funcionó en el proyecto.
 
-          p.texto-invisible Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore laudantium, cupiditate enim adipisci a molestias maxime vero facilis sit? Eum incidunt maiores odit perferendis magni earum cumque, molestias ut ab!
-          p.texto-invisible Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore laudantium, cupiditate enim adipisci a molestias maxime vero facilis sit? Eum incidunt maiores odit perferendis magni earum cumque, molestias ut ab!
-          p.texto-invisible Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore laudantium, cupiditate enim adipisci a molestias maxime vero facilis sit? Eum incidunt maiores odit perferendis magni earum cumque, molestias ut ab!
 
-    br
-    br
-    br
 
     .row.container.justify-content-around.align-items-center
 
