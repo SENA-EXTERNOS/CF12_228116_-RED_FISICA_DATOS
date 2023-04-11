@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'En este componente formativo se van a desarrollar conceptos generales de redes, sistemas de medidas, gestión de proyectos de tecnologías de información y software de planos y diagramas, que se deben tener en cuenta para lograr una implementación exitosa de las redes de datos, en el proceso de instalación e implementación de la infraestructura de tecnologías de la información y las telecomunicaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/imagen-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal2.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
