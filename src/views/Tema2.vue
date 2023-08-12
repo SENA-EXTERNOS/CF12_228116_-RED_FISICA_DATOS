@@ -110,7 +110,6 @@
             p.text-center.px-4 La capacidad de soportar diferentes tecnologías de nivel de enlace.
           
           
-    p La capacidad de soportar diferentes tecnologías de nivel de enlace.
       
     p.mb-5  Seguidamente viene el proceso de instalación de redes, el cual podemos dividir en las siguientes etapas: instalación eléctrica y aire acondicionado, instalación del cableado de la red, estructuración del cableado e instalación del centro de procesamiento de datos. Ampliemos la información sobre cada una de ellas.
     
@@ -126,9 +125,7 @@
         figure
           img(data-aos="fade-up")(src='@/assets/curso/temas/img-inst-electr-tema2.png', alt='Texto que describa la imagen')
 
-    p Otra situación importante que se debe resolver se origina
-      | 
-      span.etiqueta por los cortes de corriente o las subidas y bajadas de tensión; para resolverlo se pueden utilizar sistemas de alimentación ininterrumpida (SAI).
+    p Otra situación importante que se debe resolver se origina por los cortes de corriente o las subidas y bajadas de tensión; para resolverlo se pueden utilizar sistemas de alimentación ininterrumpida (SAI).
     p.mb-5 Normalmente, los sistemas de alimentación ininterrumpida corrigen todas las deficiencias de la corriente eléctrica; esto quiere decir, que actúan de estabilizadores, aseguran el fluido frente a cortes de corriente y suministran el flujo eléctrico adecuado, etc.
 
 
