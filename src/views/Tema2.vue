@@ -144,7 +144,7 @@
           .row(titulo="Instalación de las tomas de corriente")
             p Esta tarea acostumbra ser llevada a cabo por un electricista, pero desde el punto de vista del proyecto, se debe tener seguridad de que existen suficientes tomacorrientes para alimentar todos los equipos de comunicaciones.
 
-          .row(titulo="Instalación de rosetas y jacks")
+          .row(titulo="Instalación de rosetas y <em>jacks</em>")
             p Se refiere a la instalación de los puntos de red finales desde donde se conectan los equipos de comunicaciones, utilizando latiguillos (cables). La mayor parte de estas conexiones residen en canaletas o en armarios de cableado.
 
           .row(titulo="Tendido de los cables")
@@ -189,7 +189,7 @@
               img(src="@/assets/curso/temas/img-estruct-cableado-tema2.png", alt="alt").img-estruc-cableado
 
           .col-lg-7
-            p.p-1 Se refiere a la localización del cableado en cada puesto de trabajo. A cada ubicación deben llegar todos los posibles medios de transmisión de la señal que requiera cada equipamiento: UTP, STP, fibra óptica, cables para el uso de transceptores y balums, etc.
+            p.p-1 Se refiere a la localización del cableado en cada puesto de trabajo. A cada ubicación deben llegar todos los posibles medios de transmisión de la señal que requiera cada equipamiento: UTP, STP, fibra óptica, cables para el uso de transceptores y #[em balums], etc.
             p.bloque-texto-rojo-estruc-cableado En esta preparación se manifiesta una clasificación jerárquica de subsistemas de cableado estructurado, clasificación que no es inflexible; inclusive, las designaciones de cada subsistema pueden variar desde unos textos técnicos a otros.
 
     br
@@ -212,7 +212,7 @@
 
                 .row(titulo="Subsistema distribuidor o administrador")
                   .col-12
-                    p.mb-0 Este subsistema se refiere a la inclusión de los racks, los distribuidores de red con sus latiguillos, etc.
+                    p.mb-0 Este subsistema se refiere a la inclusión de los #[em racks], los distribuidores de red con sus latiguillos, etc.
 
                 .row(titulo="Subsistema vertical o <i>backbone</i>")
                   .col-12

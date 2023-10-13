@@ -16,7 +16,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/img1-tema4.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p Para finalizar, abordemos el estudio de planos, diagramas y el software utilizado para tal fin.
+            p Para finalizar, abordemos el estudio de planos, diagramas y el #[em software] utilizado para tal fin.
             br
             br
 

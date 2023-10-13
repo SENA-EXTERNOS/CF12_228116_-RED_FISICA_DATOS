@@ -15,7 +15,7 @@
             figure
               img(data-aos="fade-up-left")(src="@/assets/curso/temas/img-tarj1-tema1.png").img-tar1-tema1
         .col-lg-7
-            p.texto-tar1-tema1.p-3 Hablemos primero sobre el concepto de #[strong  red de transmisión de datos], el cual se puede definir como una estructura o un conjunto de elementos interconectados entre sí, que comparten recursos y pueden transmitir información a través del intercambio de datos. Si analizamos y descomponemos estas palabras encontramos que hay dos palabras que vienen del latín: red, que emana del vocablo rete y que es sinónimo de malla; y datos, que es fruto de la evolución del vocablo datum que puede traducirse como dato. 
+            p.texto-tar1-tema1.p-3 Hablemos primero sobre el concepto de #[strong  red de transmisión de datos], el cual se puede definir como una estructura o un conjunto de elementos interconectados entre sí, que comparten recursos y pueden transmitir información a través del intercambio de datos. Si analizamos y descomponemos estas palabras encontramos que hay dos palabras que vienen del latín: red, que emana del vocablo #[em rete] y que es sinónimo de malla; y datos, que es fruto de la evolución del vocablo #[em datum] que puede traducirse como dato. 
 
     br
     br

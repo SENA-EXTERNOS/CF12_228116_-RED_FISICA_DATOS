@@ -187,7 +187,7 @@ export default {
     {
       termino: 'DNS',
       significado:
-        'sistema de nombre de dominios. Un sistema de Internet que resuelve los nombres de dominios en direcciones IP.',
+        'sistema de nombre de dominios. Un sistema de internet que resuelve los nombres de dominios en direcciones IP.',
     },
     {
       termino: 'Enrutador',
