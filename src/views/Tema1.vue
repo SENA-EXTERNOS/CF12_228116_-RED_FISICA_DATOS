@@ -233,11 +233,11 @@
             p En esta forma de conexión se establece que cada equipo o nodo se encuentre conectado, por un cable diferente, a cada uno del resto de los equipos. Los distintos dispositivos, a través de múltiples caminos, hacen que sea posible orientar el tráfico por vías alternativas, en caso de que algún nodo se encuentre averiado u ocupado.
 
           .tarjeta.tarj-roso-osc-pto-caliente-tema1.p-3(x="72%" y="60%" numero="5")
-            .h5.mb-2 Arbol
+            .h5.mb-2 Árbol
             p La topología de árbol o jerárquica es aquella donde los nodos están organizados en forma de árbol. Aquí se combinan características de la de estrella con la de bus, y se mezclan y aplican las funcionalidades de las dos. El manejo es similar, por el modo de actuar del nodo de interconexión que trabaja en modo difusión, debido a que la información se esparce hacia todas las estaciones; solo que en esta topología, las ramificaciones se difunden, a partir de un punto raíz como la de estrella a la cantidad de divisiones como sea posible según las particularidades del árbol.
 
           .tarjeta.tarj-azul2-pto-caliente-tema1.p-3(x="92%" y="90%" numero="6")
-            .h5.mb-2 Hibrida
+            .h5.mb-2 Híbrida
             p En este formato de conexión las redes pueden utilizar distintas topologías para conectarse. Es una de las más usuales y procede de la unión de varios tipos de topología de red. Su ejecución se debe a la complejidad de la solución de red o al aumento en la cantidad de dispositivos y, por lo tanto, se hace imprescindible implantar una topología de este tipo.
         
         p.texto-invisible Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore laudantium, cupiditate enim adipisci a molestias maxime vero facilis sit? Eum incidunt maiores odit perferendis magni earum cumque, molestias ut ab!
