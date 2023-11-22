@@ -17,7 +17,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arrastrar y soltar
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/Actividad_didáctica-CF12-TG_228116_ Red física de datos/story.html')" target="_blank").color-acento-contenido
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank").color-acento-contenido
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
